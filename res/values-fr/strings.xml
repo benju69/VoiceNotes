@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoiceNotes</string>
+    <string name="about_text">VoiceNotes v1.2\n\nVoiceNotes vous permets de faire des notes avec votre voix.\n\nDesign et développement : Benjamin Gonin</string>
+    <string name="feedback">Faire un retour</string>
+    <string name="rate">Noter l\'application</string>
+    <string name="no_file">Aucune note</string>
+    <string name="action_record">Enregistrer une nouvelle note</string>
+    <string name="action_search">Rechercher</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_info">À propos</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_delete_all">Supprimer tout</string>
+    <string name="play">Lire</string>
+    <string name="share">Partager</string>
+    <string name="edit">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="set_ringtone">Définir comme sonnerie</string>
+    <string name="yes">OK</string>
+    <string name="no">Annuler</string>
+    <string name="dialogDelete">Supprimer la note : </string>
+    <string name="dialogDeleteAll">Supprimer toutes les notes, êtes vous sûr ?</string>
+    <string name="deleting">Suppression</string>
+    <string name="replace">existe déjà. Voulez-vous le remplacer ?</string>
+    <string name="record">Enregistrer</string>
+    <string name="new_note">Nouvelle note</string>
+    <string name="done">Terminé</string>
+    <string name="nulltime">00:00:00</string>
+    <string name="ready">Prêt</string>
+    <string name="recording">Enregistrement&#8230;</string>
+    <string name="paused">Pause</string>
+    <string name="dialog_text">Entrer un nom (sujet, titre) pour cette note</string>
+    <string name="impossibleRecord">Impossible d\'enregistrer</string>
+
+</resources>

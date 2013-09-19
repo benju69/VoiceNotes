@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VoiceNotes</string>
+    <string name="about_text">VoiceNotes v1.2\n\nVoiceNotes let\'s you make notes with your voice\n\nDesign and development : Benjamin Gonin</string>
+    <string name="feedback">Send feedback</string>
+    <string name="rate">Rate the application</string>
+    <string name="no_file">No Voice Notes</string>
+    <string name="action_record">Record new note</string>
+    <string name="action_search">Search</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_info">About</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="play">Play</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="set_ringtone">Set as ringtone</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="dialogDelete">Delete the note : </string>
+    <string name="dialogDeleteAll">Delete all the notes, are you sure?</string>
+    <string name="deleting">Deleting</string>
+    <string name="replace">already exists. Do you want to replace it?</string>
+    <string name="record">Record</string>
+    <string name="new_note">New Voice Note</string>
+    <string name="done">Done</string>
+    <string name="nulltime">00:00:00</string>
+    <string name="ready">Ready</string>
+    <string name="recording">Recording&#8230;</string>
+    <string name="paused">Paused</string>
+    <string name="dialog_text">Enter a name (subject, title) for this Voice Note</string>
+    <string name="impossibleRecord">Impossible to record</string>
+
+</resources>

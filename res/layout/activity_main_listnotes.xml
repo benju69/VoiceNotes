@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Liste notes -->
+
+    <GridView
+        android:id="@+id/ListViewNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/LinearLayoutZonePlayer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clipToPadding="false"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:fastScrollEnabled="true"
+        android:numColumns="@integer/num_columns"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp"
+        android:scrollbarStyle="outsideOverlay" >
+    </GridView>
+
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imageViewEmpty"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:alpha="0.5"
+            android:padding="16dp"
+            android:src="@drawable/mic_muted" />
+
+        <TextView
+            android:id="@+id/textViewEmpty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_file"
+            android:textColor="@color/gris_bar"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- Zone pour player : play/pause, seekbar, temps -->
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutZonePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ab_bottom_solid_voicenotes"
+        android:orientation="horizontal"
+        android:padding="2dp" >
+
+        <ImageButton
+            android:id="@+id/imageButtonPlayPauseNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_playback_play" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutSeek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewCurrentTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/nulltime"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textViewTimeMax"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingRight="16dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/nulltime"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <SeekBar
+                android:id="@+id/seekBarPlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

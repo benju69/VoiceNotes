@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Voicenotes" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/gris</item>
+        <item name="actionBarItemBackground">@drawable/selectable_background_voicenotes</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Voicenotes</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Voicenotes</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Voicenotes</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Voicenotes</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_voicenotes</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_voicenotes</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Voicenotes</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Voicenotes.Widget</item>
+        
+        <item name="android:buttonStyle">@style/ButtonVoiceNotes</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonVoiceNotes</item>
+        <item name="android:seekBarStyle">@style/SeekBarVoiceNotes</item>
+    </style>
+
+    <style name="ActionBar.Solid.Voicenotes" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_voicenotes</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_voicenotes</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_voicenotes</item>
+        <item name="progressBarStyle">@style/ProgressBar.Voicenotes</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Voicenotes" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_voicenotes</item>
+        <item name="progressBarStyle">@style/ProgressBar.Voicenotes</item>
+    </style>
+
+    <style name="PopupMenu.Voicenotes" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_voicenotes</item>
+    </style>
+
+    <style name="DropDownListView.Voicenotes" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_voicenotes</item>
+    </style>
+
+	<style name="DropDownNav.Voicenotes" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_voicenotes</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_voicenotes</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_voicenotes</item>
+    </style>
+
+    <style name="ProgressBar.Voicenotes" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_voicenotes</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Voicenotes" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_voicenotes</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Voicenotes.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Voicenotes</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Voicenotes</item>
+    </style>
+
+    <style name="ButtonVoiceNotes" parent="android:Widget.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ImageButtonVoiceNotes" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+    </style>
+
+    <style name="SeekBarVoiceNotes" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+</resources>

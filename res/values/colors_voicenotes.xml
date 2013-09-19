@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pressed_voicenotes">#CC7395A7</color>
+    <color name="gris">#e4e4e4</color>
+    <color name="white_special">#fafafa</color>
+    <color name="grey_special">#e5e5e5</color>
+    <color name="gris_bar">#555555</color>
+
+</resources>

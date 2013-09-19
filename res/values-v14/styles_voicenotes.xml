@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Voicenotes" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/gris</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_voicenotes</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Voicenotes</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Voicenotes</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Voicenotes</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Voicenotes</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_voicenotes</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_voicenotes</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Voicenotes</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Voicenotes.Widget</item>
+        
+        <item name="android:buttonStyle">@style/ButtonVoiceNotes</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonVoiceNotes</item>
+        <item name="android:seekBarStyle">@style/SeekBarVoiceNotes</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>        
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+    </style>
+
+    <style name="ActionBar.Solid.Voicenotes" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_voicenotes</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_voicenotes</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_voicenotes</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Voicenotes</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Voicenotes" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_voicenotes</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Voicenotes</item>
+    </style>
+
+    <style name="PopupMenu.Voicenotes" parent="@style/Widget.Sherlock.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_voicenotes</item>
+    </style>
+
+    <style name="DropDownListView.Voicenotes" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_voicenotes</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Voicenotes.Widget" parent="@style/Theme.Sherlock">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Voicenotes</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Voicenotes</item>
+    </style>
+
+    <style name="ButtonVoiceNotes" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+    </style>
+
+    <style name="ImageButtonVoiceNotes" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/btn_default_holo_light</item>
+    </style>
+
+    <style name="SeekBarVoiceNotes" parent="android:Widget.Holo.Light.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+    </style>
+    
+    <style name="OverFlow" parent="@style/Widget.Sherlock.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+
+</resources>
