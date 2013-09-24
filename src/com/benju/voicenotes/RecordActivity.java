@@ -16,6 +16,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.EditText;
@@ -204,10 +205,11 @@ public class RecordActivity extends SherlockActivity {
 			alert.setTitle(getString(R.string.new_note));
 			alert.setMessage(getString(R.string.dialog_text));
 			alert.setIcon(R.drawable.ic_action_volume_up);
-			
-			final EditText input = new EditText(this);
-			input.setHint(getString(R.string.new_note));
-			alert.setView(input);
+						
+			LayoutInflater inflater = getLayoutInflater();
+			View dialoglayout = inflater.inflate(R.layout.layout_edit_note_name, null);			
+			alert.setView(dialoglayout);
+			final EditText input = (EditText)dialoglayout.findViewById(R.id.editNoteName);
 			
 			// Ok
 			alert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {

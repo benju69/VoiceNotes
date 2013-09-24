@@ -16,7 +16,7 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-public class VoiceNotesAdapter extends ArrayAdapter<HashMap<String, String>> /*BaseAdapter*/ implements Filterable {
+public class VoiceNotesAdapter extends ArrayAdapter<HashMap<String, String>> implements Filterable {
 
 	private Context mContext;
 	private ArrayList<HashMap<String, String>> VoiceNotesList;
@@ -153,6 +153,5 @@ public class VoiceNotesAdapter extends ArrayAdapter<HashMap<String, String>> /*B
                 add(filteredVoiceNotesList.get(i));
             notifyDataSetInvalidated();
 		}
-		
 	}
 }

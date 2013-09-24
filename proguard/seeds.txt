@@ -6315,6 +6315,7 @@ com.benju.voicenotes.R$id: int dateTextView
 com.benju.voicenotes.R$id: int delete
 com.benju.voicenotes.R$id: int disableHome
 com.benju.voicenotes.R$id: int edit
+com.benju.voicenotes.R$id: int editNoteName
 com.benju.voicenotes.R$id: int edit_query
 com.benju.voicenotes.R$id: int emptyView
 com.benju.voicenotes.R$id: int homeAsUp
@@ -6368,6 +6369,7 @@ com.benju.voicenotes.R$layout: int activity_about
 com.benju.voicenotes.R$layout: int activity_main_listnotes
 com.benju.voicenotes.R$layout: int activity_record
 com.benju.voicenotes.R$layout: int adapter_note_list
+com.benju.voicenotes.R$layout: int layout_edit_note_name
 com.benju.voicenotes.R$layout: int sherlock_spinner_dropdown_item
 com.benju.voicenotes.R$layout: int sherlock_spinner_item
 com.benju.voicenotes.R$menu: int context_menu

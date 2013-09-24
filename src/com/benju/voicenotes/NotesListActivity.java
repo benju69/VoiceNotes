@@ -28,6 +28,7 @@ import android.os.Handler;
 import android.provider.MediaStore;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
+import android.view.LayoutInflater;
 import android.view.MenuInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -324,9 +325,10 @@ public class NotesListActivity extends SherlockActivity {
 			EditAlert.setMessage(getString(R.string.dialog_text));
 			EditAlert.setIcon(R.drawable.ic_action_volume_up);
 			
-			final EditText input = new EditText(this);
-			input.setHint(getString(R.string.new_note));
-			EditAlert.setView(input);
+			LayoutInflater inflater = getLayoutInflater();
+			View dialoglayout = inflater.inflate(R.layout.layout_edit_note_name, null);			
+			EditAlert.setView(dialoglayout);
+			final EditText input = (EditText)dialoglayout.findViewById(R.id.editNoteName);
 
 			// Ok
 			EditAlert.setPositiveButton(getString(R.string.yes), new DialogInterface.OnClickListener() {

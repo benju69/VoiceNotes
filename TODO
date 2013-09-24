@@ -24,7 +24,9 @@ https://github.com/g123k/EdgeEffectOverride
 http://stackoverflow.com/questions/14645850/what-is-good-setaudioencodingbitrate-on-record-voice
 http://stackoverflow.com/questions/5886872/android-audiorecord-vs-mediarecorder-for-recording-audio
 
-prochaine v :
+#################################################################
+
+Ajouts à faire :
 
 release player si supprimer ...
 Options ... 
@@ -38,11 +40,6 @@ Service ?
 
 autre format, meilleure qualité
 
-Probleme avec caracteres speciaux : 
-
-https://www.google.fr/?gws_rd=cr#q=android+special+characters+file+name&safe=off
-
-http://stackoverflow.com/questions/7724074/trouble-saving-file-in-sd-card-with-special-characters-in-filename
 
 
 #################################################################

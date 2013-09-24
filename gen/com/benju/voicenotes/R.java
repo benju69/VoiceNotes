@@ -1034,9 +1034,10 @@ containing a value of this type.
         public static final int buttonfeed=0x7f050036;
         public static final int buttonrate=0x7f050037;
         public static final int dateTextView=0x7f05004a;
-        public static final int delete=0x7f05004f;
+        public static final int delete=0x7f050050;
         public static final int disableHome=0x7f050009;
-        public static final int edit=0x7f05004e;
+        public static final int edit=0x7f05004f;
+        public static final int editNoteName=0x7f05004c;
         public static final int edit_query=0x7f050026;
         public static final int emptyView=0x7f05003b;
         public static final int homeAsUp=0x7f050006;
@@ -1047,11 +1048,11 @@ containing a value of this type.
         public static final int listMode=0x7f050002;
         public static final int normal=0x7f050001;
         public static final int noteImageView=0x7f050047;
-        public static final int play=0x7f05004c;
-        public static final int ringtone=0x7f050050;
+        public static final int play=0x7f05004d;
+        public static final int ringtone=0x7f050051;
         public static final int scrollView=0x7f050033;
         public static final int seekBarPlay=0x7f050042;
-        public static final int share=0x7f05004d;
+        public static final int share=0x7f05004e;
         public static final int showCustom=0x7f050008;
         public static final int showHome=0x7f050005;
         public static final int showTitle=0x7f050007;
@@ -1094,8 +1095,9 @@ containing a value of this type.
         public static final int activity_main_listnotes=0x7f030016;
         public static final int activity_record=0x7f030017;
         public static final int adapter_note_list=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
+        public static final int layout_edit_note_name=0x7f030019;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
+        public static final int sherlock_spinner_item=0x7f03001b;
     }
     public static final class menu {
         public static final int context_menu=0x7f0c0000;
